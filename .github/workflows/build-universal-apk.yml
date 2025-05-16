@@ -155,7 +155,7 @@ jobs:
 
       - name: Build FFmpegKit AAR for All Architectures
         run: |
-          ./android.sh --enable-arm-v7a --enable-arm64-v8a --enable-x86 --enable-x86-64
+          ./android.sh
 
       - name: Build APKs
         run: |
